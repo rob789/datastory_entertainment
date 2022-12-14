@@ -9,3 +9,8 @@ redirect_from:
 ---
 
 pages/about.md
+
+
+
+
+{% include figure.html %}
