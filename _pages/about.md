@@ -16,4 +16,4 @@ Pour ajouter une plot, mettez le fichier html dans _includes
 {% include figure.html %}
 
 
-#Pee pee poo poo c'est fini
+# Pee pee poo poo c'est fini
