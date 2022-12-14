@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "Project Repository"
+  - title: "Project repository"
     url: "https://github.com/epfl-ada/ada-2022-project-teamjose"
 
-  #- title: "Talks"
-   # url: /talks/    
+  - title: "Datastory repository"
+    url: "https://github.com/rob789/datastory_entertainment"   
 
- # - title: "Teaching"
-  #  url: /teaching/    
+  - title: "ADA website"
+    url: "https://dlab.epfl.ch/teaching/fall2022/cs401/"   
     
   #- title: "Portfolio"
    # url: /portfolio/
