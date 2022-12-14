@@ -1,7 +1,7 @@
 # main links links
 main:
-  #- title: "Publications"
-   # url: /publications/
+  - title: "Project Repository"
+    url: "https://github.com/epfl-ada/ada-2022-project-teamjose"
 
   #- title: "Talks"
    # url: /talks/    
