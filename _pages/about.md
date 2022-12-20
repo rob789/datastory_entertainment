@@ -22,7 +22,6 @@ Exemple des plots interactives :
 
 {% include figure.html %}
 
-{% include gif.html %}
 
 
 # Pee pee poo poo c'est fini
