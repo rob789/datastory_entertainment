@@ -20,7 +20,7 @@ J'ai mis un fichier d'exemple pour convertir une plot en html --> plotly_to_html
 
 Exemple des plots interactives : 
 
-{% include figure.html %}
+{% include jv.html %}
 
 
 
