@@ -73,3 +73,37 @@ We can thus look at the percentage increase or decrease between two consecutive 
 {% include percentage_books.html %}
 
 From 2015 to 2019, we notice that the increase is quite low, and we even in some cases have a decrease. However, between 2019 and 2020, there was a huge and unusual increase of about 125%. This is much bigger than what we had before and could only be explained by a rise of popularity in books during the lockdown. Moreover, to evaluate the unusual rise, we decided to train a linear regression model on the percentage increase of number of reviews up until 2020 (excluded). We can clearly see that the predicted value of 2020 is far lower than the true one, in fact, it is about 7 times lower than the true value! 
+
+# Twitch
+
+Twitch is the biggest video games streaming platform where people can share their video games sessions with their viewers and interact with them using a chat.
+
+Since the lockdown created a lack of social interactions, it would be interesting to see the evolution of Twitch to measure how such a platform was able to unite people together around a shared hobby both from streamers and viewers perspective.
+
+{% include twitch_evol_hours_watched.html %}
+
+There has been a noticable increase in watch time since the start of the lockdown. People had more free time and looked for social interactions with streamers and other viewers under the video game distraction.
+
+{% include twitch_evol_number_users.html %}
+
+We realise also that the number of viewers, streams and channels has greatly increased since the start of the lockdown and was able to maintain their numbers even after the lockdown has ended. Since people had more time to spend at home during the lockdown, already existing streamers had more time to stream their games and some new gamers have decided to share their gaming sessions with their friends.
+
+{% include twitch_diff_global.html %}
+
+The watch time, number of viewers and number of channels follow all a very similar shape with a great increase at the start of the lockdown and a slower increase after the end of the lockdown. The number of streams also follows the same evolution but at a smaller rate. This may be due to the material requirements of streaming that not everyone can comply to.
+
+To dig deeper, we will see if some video games have obtained more attention during this period compared to others.
+
+{% include twitch_evol_top_games.html %}
+
+For the top 10 games at that time on the platform, there has been a general increase in both hours streamed and hours watched.
+
+{% include twitch_diff_top_games.html %}
+
+From the streamers perspective, all games got their streaming time increased but we notice an interesting outlier. Fortine obtained much more stream time during the lockdown but also got a severe decrease after the lockdown ended. This is due to Fortnite being the most popular game by far in 2020. Therefore people wanting to start streaming will choose to play their favorite game which ended up being Fortnite. However, when the lockdown ended, these new streamers did no longer have enough time to spend on streaming or perfered to do some outside activities which ends up decreasing Fortnite streaming hours.
+
+From the viewers perspective, the first thing to notice is that all games received an increase in viewership at the start of the lockdown except World of Warcaft. World of Warcraft (WoW) is a MMO-RPG and thus a game heavily based on social interactions with other players. For new players or viewers, WoW is also not a game that provides a viewer-friendly experience due to the highly customisable interface and complexity of the game. Those two reasons imply that new viewers probably won't enjoy watching and WoW players would spend more time in game instead of watching it on Twitch.
+
+Just Chatting is a category that dominated in viewers during this whole time period. Since Just Chatting is not a game but a category used by streamers that want to just talk and interact with their community without having to focus on playing a game, it shows that viewers are really looking for social interactions.
+
+It is also interesting that even though Fortnite was the most popular game at the time and had the most streamed hours, in terms of watch time, it stays on par with other games. It shows that it is not a game suitable for interacting with the chat because it requires permanent attention of the player.
