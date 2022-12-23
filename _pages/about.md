@@ -58,7 +58,7 @@ Indeed, there is a 52.95% increase in viewership during the lockdown compared to
 
 We then investigated some board games popularity on Wikipedia (Monopoly, Catan, Scrabble and Chess). In this case, we notice a rise of interest during the lockdown, however it was not a long-term trend as the searches decreased back after the lockdown. 
 
-{% include boardgames.html %}
+#### missing boardgames.html
 
 Indeed, there was a 24.7% increase in interest for board games during the lockdown compared to right before, followed by a 21.9% decrease of interest right after the lockdown compared to during the lockdown. Overall, there is a 2.6% decrease in views right after the end of the lockdown compared to before. Although there might seem to be an increase in popularity of board games the following year after the lockdown, this could be explained by the rise of popularity of chess following the release of “The Queen's Gambit” on Netflix.
 
