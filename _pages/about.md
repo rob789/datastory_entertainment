@@ -52,7 +52,7 @@ We first looked at the popularity of video games on Wikipedia (League of Legends
 
 {% include videogames.html %}
 
-Indeed, there is a 52.95% increase in viewership during the lockdown compared to right before. Moreover, this trend seems to be a long-term trend (it stayed even after the covid lockdown), although there is a slight decrease of 6.6% in searches after the end of lockdown, there is still a 44.6% increase in searches the following year after the lockdown compared to our baseline of before the lockdown.
+Indeed, there is a 52.3% increase in viewership during the lockdown compared to right before. Moreover, this trend seems to be a long-term trend (it stayed even after the covid lockdown), although there is a slight decrease of 8.46% in searches after the end of lockdown, there is still a 50.4% increase in searches the following year after the lockdown compared to our baseline of before the lockdown.
 
 {% include percentage_videogames.html %}
 
@@ -60,7 +60,7 @@ We then investigated some board games popularity on Wikipedia (Monopoly, Catan, 
 
 {% include boardgames.html %}
 
-Indeed, there was a 24.7% increase in interest for board games during the lockdown compared to right before, followed by a 21.9% decrease of interest right after the lockdown compared to during the lockdown. Overall, there is a 2.6% decrease in views right after the end of the lockdown compared to before. Although there might seem to be an increase in popularity of board games the following year after the lockdown, this could be explained by the rise of popularity of chess following the release of “The Queen's Gambit” on Netflix.
+Indeed, there was a 32.1% increase in interest for board games during the lockdown compared to right before, followed by a 22.5% decrease of interest right after the lockdown compared to during the lockdown. Overall, there is a 2.4% decrease in views right after the end of the lockdown compared to before. Although there might seem to be an increase in popularity of board games the following year after the lockdown, this could be explained by the rise of popularity of chess following the release of “The Queen's Gambit” on Netflix.
 
 {% include percentage_boardgames.html %}
 
