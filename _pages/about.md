@@ -53,6 +53,33 @@ We can thus look at the percentage increase or decrease between two consecutive 
 
 From 2015 to 2019, we notice that the increase is quite low, and we even in some cases have a decrease. However, between 2019 and 2020, there was a huge and unusual increase of about 125%. This is much bigger than what we had before and could only be explained by a rise of popularity in books during the lockdown. Moreover, to evaluate the unusual rise, we decided to train a linear regression model on the percentage increase of number of reviews up until 2020 (excluded). We can clearly see that the predicted value of 2020 is far lower than the true one, in fact, it is about 7 times lower than the true value! 
 
+# Wikipedia Video-Game Searches
+
+{% include vg_pageviews.html %}
+
+Here, we can see the evolution of video-game related articles during the year 2020 for four different languages. The difference is quite drastic from 2019, as seen by the distance from normality metric.
+
+{% include vg2.html %}
+
+Now, we can observe a slight increase in research for every game mode across all languages. Keeping in mind that the y scale is in log, so even a slight increase can be exponential.
+
+{% include vg3.html %}
+
+Our strategy to determine whether this increase is significant, was via Bootstrap sampling. We looked at three different scenarios; a) Pre & Post mobility changepoint, b) After mobility changepoint & After return to baseline, c)Before mobility changepoint & After return to baseline.
+For each of these scenarios we sampled daily countviews with replacement, and compared the relative increase ratio between pre and post. We repeat this 1000 times and compute the 95% confidence interval.
+
+{% include vg4.html %}
+
+Here we can see a relative increase of all the video game modes over the four languages during the lockdown. However we can see that this change is only transient, because it goes back down after the normality change-point.
+
+{% include vg5.html %}
+
+We can clearly see here how the lockdown has impacted searches, and how the distance from normality is more pronounced in countries where restrictions were more strict (like France and Italy)
+
+{% include vg6.html %}
+{% include vg7.html %}
+
+
 # Live streaming
 
 Twitch is the biggest video games streaming platform where people can share their video games sessions with their viewers and interact with them using a chat.
