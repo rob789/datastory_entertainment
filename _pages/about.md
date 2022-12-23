@@ -53,7 +53,7 @@ We can thus look at the percentage increase or decrease between two consecutive 
 
 From 2015 to 2019, we notice that the increase is quite low, and we even in some cases have a decrease. However, between 2019 and 2020, there was a huge and unusual increase of about 125%. This is much bigger than what we had before and could only be explained by a rise of popularity in books during the lockdown. Moreover, to evaluate the unusual rise, we decided to train a linear regression model on the percentage increase of number of reviews up until 2020 (excluded). We can clearly see that the predicted value of 2020 is far lower than the true one, in fact, it is about 7 times lower than the true value! 
 
-# Live stream
+# Live streaming
 
 Twitch is the biggest video games streaming platform where people can share their video games sessions with their viewers and interact with them using a chat.
 
@@ -75,15 +75,15 @@ To dig deeper, we will see if some video games have obtained more attention duri
 
 {% include twitch_evol_top_games.html %}
 
-For the top 10 games at that time on the platform, there has been a general increase in both hours streamed and hours watched.
+For the top 10 games at that time on the platform, there has been a general increase in both hours streamed and hours watched. Let's see the difference of those hours between the times before, during and after the lockdown.
 
 {% include twitch_diff_top_games.html %}
 
-From the streamers perspective, all games got their streaming time increased but we notice an interesting outlier. Fortine obtained much more stream time during the lockdown but also got a severe decrease after the lockdown ended. This is due to Fortnite being the most popular game by far in 2020. Therefore people wanting to start streaming will choose to play their favorite game which ended up being Fortnite. However, when the lockdown ended, these new streamers did no longer have enough time to spend on streaming or perfered to do some outside activities which ends up decreasing Fortnite streaming hours.
+From the streamers perspective, all games got their streaming time increased but we notice an interesting outlier. Fortnite obtained much more stream time during the lockdown but also got a severe decrease after the lockdown ended. This is due to Fortnite being the most popular game by far in 2020. Therefore people wanting to start streaming will choose to play their favorite game which ended up being Fortnite. However, when the lockdown ended, these new streamers did no longer have enough time to spend on streaming or perfered to do some outside activities which ends up decreasing Fortnite streaming hours.
 
 From the viewers perspective, the first thing to notice is that all games received an increase in viewership at the start of the lockdown except World of Warcaft. World of Warcraft (WoW) is a MMO-RPG and thus a game heavily based on social interactions with other players. For new players or viewers, WoW is also not a game that provides a viewer-friendly experience due to the highly customisable interface and complexity of the game. Those two reasons imply that new viewers probably won't enjoy watching and WoW players would spend more time in game instead of watching it on Twitch.
 
-Just Chatting is a category that dominated in viewers during this whole time period. Since Just Chatting is not a game but a category used by streamers that want to just talk and interact with their community without having to focus on playing a game, it shows that viewers are really looking for social interactions.
+Just Chatting is a category that dominated in viewers during this whole time period. Since Just Chatting is not a game but a category used by streamers that just want to talk and interact with their community without having to focus on playing a game, it shows that viewers are really looking for social interactions.
 
 It is also interesting that even though Fortnite was the most popular game at the time and had the most streamed hours, in terms of watch time, it stays on par with other games. It shows that it is not a game suitable for interacting with the chat because it requires permanent attention of the player.
 
@@ -101,7 +101,7 @@ It is difficult to compare the single and multiplayer games due to the bigger po
 
 Before the lockdown, we can see that the number of player is changing slightly with seasonal variation, with some sudden spikes in daily players when a new game or a new extension in an existing game is made available. This has been a continuous tendency for the months before the lockdown. But a new dynamic arrives with the Covid-19 outbreak. During lockdown, a lot more people suddenly started playing computer games on a more regular basis.
 
-But is that a simple tendency ? It is entirely possible that a few new videogames and extentions went out in the same interval of time. Is it only a coincidence that so many beople picked up gaming at the same time. 
+But is that a simple tendency ? It is entirely possible that a few new videogames and extensions went out in the same interval of time. Is it only a coincidence that so many beople picked up gaming at the same time. 
 
 To understand the situation a bit better, we can compare the year 2019, the lockdown period, and the end of 2020, when everything is back to normal and everyone is back to work. 
 
@@ -117,4 +117,4 @@ This sudden interest for videogames is also visible on Google trends :
 
 The Google Trends score is computed on the relative value of each subject. so for a given subject, the score of 100 would be the time were this subject was at the top of it's popularity.
 
-Videogames have not only seen a great increase on daily players, but were also at the top of their popularity on the web during lockdown.This shows that people not only used this as a way to entertain themselves during lockdown, but it created a complete shift in peoples's interests. A higher popularity score also means that paople made more searches on videogames, created more content on youtube and social media, watched more streams and invested more time into it.
+Videogames have not only seen a great increase on daily players, but were also at the top of their popularity on the web during lockdown. This shows that people not only used this as a way to entertain themselves during lockdown, but it created a complete shift in people's interests. A higher popularity score also means that paople made more searches on videogames, created more content on youtube and social media, watched more streams and invested more time into it.
