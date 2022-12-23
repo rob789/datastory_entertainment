@@ -1,33 +1,12 @@
 ---
 permalink: /
-title: "The amazing website of el famoso Team José"
+title: "A data story about entertainment"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Vous pouvez modifier le contenu dans le fichier _pages/about.md
-
-
-Pour ajouter une plot, mettez le fichier html dans _includes
-
-J'ai mis un fichier d'exemple pour convertir une plot en html --> plotly_to_html.ipynb  
-(c'est trivial)
-
-## Touchez à rien d'autre sinon ça pète tout et je viens vous goûmer !!!
-
-Exemple des plots interactives : 
-
-{% include jv_interactif.html %}
-
-
-
-
-
-
-# Début du vrai truc 
 
 
 With the rise of Covid cases and government imposing lockdowns on the population, people were forced into isolation at home hence massively decreasing the mobility of the population. Indeed, by looking at the mobility on google maps of the population in a few countries (Switzerland, United States, France, Australia, Germany, Italy, and Spain) and comparing it to 2019 baseline (ie before the Covid Lockdown), we noticed a mass increase in the percentage of people that stayed at home. 
@@ -74,7 +53,7 @@ We can thus look at the percentage increase or decrease between two consecutive 
 
 From 2015 to 2019, we notice that the increase is quite low, and we even in some cases have a decrease. However, between 2019 and 2020, there was a huge and unusual increase of about 125%. This is much bigger than what we had before and could only be explained by a rise of popularity in books during the lockdown. Moreover, to evaluate the unusual rise, we decided to train a linear regression model on the percentage increase of number of reviews up until 2020 (excluded). We can clearly see that the predicted value of 2020 is far lower than the true one, in fact, it is about 7 times lower than the true value! 
 
-# Twitch
+# Live stream
 
 Twitch is the biggest video games streaming platform where people can share their video games sessions with their viewers and interact with them using a chat.
 
@@ -107,3 +86,35 @@ From the viewers perspective, the first thing to notice is that all games receiv
 Just Chatting is a category that dominated in viewers during this whole time period. Since Just Chatting is not a game but a category used by streamers that want to just talk and interact with their community without having to focus on playing a game, it shows that viewers are really looking for social interactions.
 
 It is also interesting that even though Fortnite was the most popular game at the time and had the most streamed hours, in terms of watch time, it stays on par with other games. It shows that it is not a game suitable for interacting with the chat because it requires permanent attention of the player.
+
+
+# Gaming
+
+The fact that everyone had to work from home created a lot of changes in our work life. A lot of meetings had to take place via video conference, lecture in schools and universities were held entirely online, and every office job had to take place at home. Everyone had to adapt to the situation for the worse or the better. 
+
+But it also means no more monitoring of one's computer activities. Let's take a look at the activities of the players on Steam, the leading gaming platform for computer games : 
+
+{% include steam_histo.html %}
+
+
+It is difficult to compare the single and multiplayer games due to the bigger popularity of the latter. We see a very big increase in the daily players in multiplayer games, but due to the huge baseline number, it is hard to say if people really prefered multiplayer games.
+
+Before the lockdown, we can see that the number of player is changing slightly with seasonal variation, with some sudden spikes in daily players when a new game or a new extension in an existing game is made available. This has been a continuous tendency for the months before the lockdown. But a new dynamic arrives with the Covid-19 outbreak. During lockdown, a lot more people suddenly started playing computer games on a more regular basis.
+
+But is that a simple tendency ? It is entirely possible that a few new videogames and extentions went out in the same interval of time. Is it only a coincidence that so many beople picked up gaming at the same time. 
+
+To understand the situation a bit better, we can compare the year 2019, the lockdown period, and the end of 2020, when everything is back to normal and everyone is back to work. 
+
+Let's take a closer look :
+
+{% include steam_percentage.html %}
+
+We see practically zero changes between the baseline in 2019 and the following of the lockdown. The number of players immediately went down both in multiplayer and single player games. This show the very particular tendency that happened during covid. The absence of socializing events and the increase of free time made people find other ways to distract themselves. 
+
+This sudden interest for videogames is also visible on Google trends : 
+
+{% include gtrends.html %}
+
+The Google Trends score is computed on the relative value of each subject. so for a given subject, the score of 100 would be the time were this subject was at the top of it's popularity.
+
+Videogames have not only seen a great increase on daily players, but were also at the top of their popularity on the web during lockdown.This shows that people not only used this as a way to entertain themselves during lockdown, but it created a complete shift in peoples's interests. A higher popularity score also means that paople made more searches on videogames, created more content on youtube and social media, watched more streams and invested more time into it.
